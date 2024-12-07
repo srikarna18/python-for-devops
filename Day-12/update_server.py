@@ -22,7 +22,7 @@ key_to_update = 'MAX_CONNECTIONS'
 new_value = '800'  # New maximum connections allowed
 
 key_to_update = 'TIMEOUT'
-new_value = '40'
+new_value = '40'    # timeout for the file is updated 
 
 # Update the server configuration file
 update_server_config(server_config_file, key_to_update, new_value)
