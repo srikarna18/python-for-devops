@@ -19,7 +19,10 @@ server_config_file = 'server.conf'
 
 # Key and new value for updating the server configuration
 key_to_update = 'MAX_CONNECTIONS'
-new_value = '600'  # New maximum connections allowed
+new_value = '800'  # New maximum connections allowed
+
+key_to_update = 'TIMEOUT'
+new_value = '40'
 
 # Update the server configuration file
 update_server_config(server_config_file, key_to_update, new_value)
